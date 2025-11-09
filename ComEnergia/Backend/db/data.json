@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Administrador SolarAndes",
+      "email": "admin@solarandes.com",
+      "password": "123456",
+      "empresa": "SolarAndes S.A.S.",
+      "role": "empresa"
+    },
+    {
+      "id": "u2",
+      "name": "María López",
+      "email": "maria@correo.com",
+      "password": "123456",
+      "empresa": "",
+      "role": "usuario"
+    },
+    {
+      "id": "u3",
+      "name": "Carlos Pérez",
+      "email": "carlos@ecoformar.com",
+      "password": "123456",
+      "empresa": "EcoFormar",
+      "role": "empresa"
+    },
+    {
+      "id": "u4",
+      "name": "Lucía Gómez",
+      "email": "lucia@enerbat.com",
+      "password": "123456",
+      "empresa": "EnerBat Ltda.",
+      "role": "empresa"
+    },
+    {
+      "id": "6bc0fd09-c1c3-4a27-a96a-0ea2dcdaeaa5",
+      "name": "Estiven Quintero",
+      "email": "estiv@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "",
+      "role": "usuario"
+    },
+    {
+      "id": "7eddf4ed-fec0-4ac0-b205-1bdb3afdca04",
+      "name": "Jose Quintero",
+      "email": "jr71650@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "SolarAndes S.A.S.",
+      "role": "empresa"
+    },
+    {
+      "id": "97881cf5-cffb-414b-85df-a263be9c5c35",
+      "name": "Sofia Torres",
+      "email": "sof@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "EnerAudit",
+      "role": "empresa"
+    },
+    {
+      "id": "4a810c23-58fc-44ab-a250-464f6a92f334",
+      "name": "Juana",
+      "email": "juana@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "EcoCheck Consulting",
+      "role": "empresa"
+    },
+    {
+      "id": "75064b99-12c5-49c2-bed1-f3b420267665",
+      "name": "Santiago",
+      "email": "Santi@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "SolarAndes S.A.S.",
+      "role": "empresa"
+    },
+    {
+      "id": "6c386c00-ad56-4c96-8bd3-00810dd6f501",
+      "name": "Juan Perez",
+      "email": "perez@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "",
+      "role": "empresa"
+    },
+    {
+      "id": "e6b2bee5-9d1c-4f48-8926-fc20ba6ce34e",
+      "name": "Samuel Sanchez",
+      "email": "sanchez@gmail.com",
+      "password": "Fallguys12.",
+      "empresa": "VoltaChez",
+      "role": "empresa"
+    },
+    {
+      "id": "b7a1fa6b-89ec-454a-b838-dacf89c0dbb5",
+      "name": "Juanito Alpaca",
+      "email": "alpaca@gmail.com",
+      "password": "123456",
+      "empresa": "voltaChez",
+      "role": "empresa"
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "title": "Instalación fotovoltaica comunitaria",
+      "resumen": "Diseño, montaje y puesta en marcha de sistemas solares 5–50 kW.",
+      "empresa": "SolarAndes S.A.S.",
+      "user": "admin@solarandes.com",
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": "s2",
+      "title": "Capacitación y formación técnica",
+      "resumen": "Cursos prácticos en mantenimiento y gestión de sistemas solares.",
+      "empresa": "EcoFormar",
+      "user": "carlos@ecoformar.com",
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": "s3",
+      "title": "Sistemas de almacenamiento (baterías)",
+      "resumen": "Gestión e instalación de bancos de baterías para microredes.",
+      "empresa": "EnerBat Ltda.",
+      "user": "lucia@enerbat.com",
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": "s4",
+      "title": "Mantenimiento y soporte técnico",
+      "resumen": "Mantenimiento preventivo y correctivo de sistemas solares.",
+      "empresa": "TechSol Services",
+      "user": "techsol@empresa.com",
+      "fecha": "2025-11-05"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": "sol1",
+      "servicio": "Instalación fotovoltaica comunitaria",
+      "empresa": "SolarAndes S.A.S.",
+      "mensaje": "Hola, estoy interesada en una instalación solar comunitaria para mi barrio.",
+      "user": "maria@correo.com",
+      "estado": "En revisión",
+      "fecha": "2025-11-05",
+      "respuesta": "Gracias María, pronto te contactaremos.",
+      "fechaRespuesta": "2025-11-05"
+    },
+    {
+      "id": "1d194877-ebd2-4999-a757-65119a0cab5a",
+      "servicio": "Instalación fotovoltaica comunitaria",
+      "empresa": "SolarAndes S.A.S.",
+      "mensaje": "Solicitud para Instalación fotovoltaica comunitaria - SolarAndes S.A.S.\n\nHola por favor revisar",
+      "user": "estiv@gmail.com",
+      "destinatarios": [
+        "admin@solarandes.com"
+      ],
+      "estado": "Aceptada",
+      "fecha": "5/11/2025",
+      "respuesta": "Hola, debes comunicarte con ....\nServicio proximo agendarse",
+      "fechaRespuesta": "5/11/2025, 5:55:17 p. m."
+    },
+    {
+      "id": "80e00ac1-c470-4ca0-a00d-bce5a16aa3d1",
+      "servicio": "Auditoría energética",
+      "empresa": "EnerAudit",
+      "mensaje": "Solicitud para Auditoría energética - EnerAudit",
+      "user": "estiv@gmail.com",
+      "destinatarios": [
+        "sof@gmail.com"
+      ],
+      "estado": "Aceptada",
+      "fecha": "5/11/2025",
+      "respuesta": "Hola",
+      "fechaRespuesta": "5/11/2025, 4:33:01 p. m."
+    },
+    {
+      "id": "588d9bfd-bedb-4c66-8065-c426aba85bbf",
+      "servicio": "Auditoría energética",
+      "empresa": "EcoCheck Consulting",
+      "mensaje": "Solicitud para Auditoría energética - EcoCheck Consulting\n\nHola, quiero más información",
+      "user": "estiv@gmail.com",
+      "destinatarios": [
+        "juana@gmail.com"
+      ],
+      "estado": "Aceptada",
+      "fecha": "5/11/2025",
+      "respuesta": "Hola, la respuesta es positiva, se agendara el servicio",
+      "fechaRespuesta": "5/11/2025, 4:41:50 p. m."
+    }
+  ]
+}
